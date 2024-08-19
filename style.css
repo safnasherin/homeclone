@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header{
+    background: #1d1d1f;
+    padding: 0px 10px;
+    
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo i{
+    height: 1px;
+    color: #c6c4c4;
+   
+
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e0e0e0;
+    margin-right: 10px;
+    
+}
+nav i {
+    text-decoration: none;
+    color: #e0e0e0;
+    
+}
+.header .header-2   {
+    background: black;
+    padding: 10px 20px;
+    border-bottom: 1px solid #4e4e4f;
+}
+nav p {
+    text-decoration: none;
+    color: #e0e0e0;
+    text-align: center;
+}
+.hero {
+    background: url('WhatsApp Image 2024-08-20 at 11.45.09_001b1291.jpg') no-repeat center center;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    color: #fff;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 3%;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin:  1px;
+}
+
+.hero h2 {
+    font-size: 24px;
+    margin: 0 0 20px;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #417dff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn-2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #417dff;
+    border-color: #417dff;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid #417dff;
+}
